@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article {
+  box-shadow: 2px 2px 8px 2px salmon;
+  max-width: 680px;
+  padding: 2.5rem;
+  margin: 3rem 0;
+  border-radius: 0.8rem;
+}
+
+img {
+  border-radius: 0.8rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.time {
+  background-color: rgba(186, 191, 191, 0.247);
+  padding: 0.8rem 1rem 0.8rem 2.5rem;
+}
+
+.Ingredients ul {
+  margin-left: 1rem;
+}
+
+.Instructions ol {
+  margin-left: 1rem;
+}
+
+table caption {
+  width: 550px;
+  text-align: start;
+}
+
+.Recipe p {
+  color: rgba(124, 132, 135, 0.916);
+}
+
+.Recipe h1 {
+  margin: 1.5rem 0;
+}
+
+.time {
+  margin: 1.5rem 0;
+  padding: 0.8rem 2.5rem;
+}
+
+.time h3 {
+  margin-left: -1.5rem;
+  color: brown;
+  font-weight: bolder;
+}
+
+.time ul li {
+  padding: 0.2rem;
+  color: rgba(124, 132, 135, 0.916);
+}
+
+.time ul li span {
+  color: brown;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: brown;
+}
+
+.Ingredients ul {
+  padding: 1rem 0;
+}
+
+.Ingredients ul li {
+  padding: 0.2rem;
+  color: rgba(124, 132, 135, 0.916);
+}
+
+.Ingredients li::marker {
+  color: brown;
+}
+
+.Instructions {
+  margin: 1rem 0;
+}
+
+.Instructions ol {
+  padding: 0.5rem;
+  font-weight: bolder;
+  width: 600px;
+}
+
+.Instructions ol li {
+  padding: 0.2rem;
+
+  color: rgba(124, 132, 135, 0.916);
+}
+
+.Instructions ol li span {
+  color: brown;
+  font-weight: bolder;
+}
+
+.Instructions li::marker {
+  color: brown;
+}
+
+.Nutrition {
+  margin: 1rem 0;
+}
+
+.Nutrition table caption {
+  margin: 1rem 0;
+  color: rgba(124, 132, 135, 0.916);
+}
+
+table tr td {
+  padding: 0.5rem;
+  border-bottom: 2px solid rgba(124, 132, 135, 0.916);
+  text-align: left;
+  color: brown;
+  font-weight: bolder;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.one {
+  color: rgba(124, 132, 135, 0.916);
+  font-weight: normal;
+}
